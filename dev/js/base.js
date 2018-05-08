@@ -281,13 +281,13 @@ var General = {
                 var d = document,
                     s = d.createElement('script');
 
-                s.src = 'https://luoleiorg.disqus.com/embed.js';
+                s.src = 'https://crosstalk4.disqus.com/count.js';
 
                 s.setAttribute('data-timestamp', +new Date());
                 // (d.head || d.body).appendChild(s);
 
                 // if (General.viewWidth > 960) {
-                loadJS('https://luoleiorg.disqus.com/embed.js', function() {
+                loadJS('https://crosstalk4.disqus.com/count.js', function() {
                         $('.author-image').addClass('comment-loaded');
                         DISQUS.reset({
                             reload: true,
